@@ -27,4 +27,18 @@
         <tag>test</tag>
       </tags>
   </entry>
+  <entry>
+    <title>updatelog0712</title>
+    <url>/2024/07/12/updatelog/</url>
+    <content><![CDATA[<h4 id="功能更新"><a href="#功能更新" class="headerlink" title="功能更新"></a>功能更新</h4><h5 id="1-新增加了评论功能"><a href="#1-新增加了评论功能" class="headerlink" title="1.新增加了评论功能"></a>1.新增加了评论功能</h5><p>运用了<code>leancloud</code>和内置的<code>valine</code>配置，给文章新增了可以评论的板块。</p>
+<p>目前可以以任意身份进行评论，日后会尝试根据ip地址锁定评论身份。</p>
+<h5 id="2-更新了上传下载页面"><a href="#2-更新了上传下载页面" class="headerlink" title="2.更新了上传下载页面"></a>2.更新了上传下载页面</h5><p>然而目前仍然无法上传文件，自然也无法下载。</p>
+<p>可能原因是后台服务端有bug，日后会尽快修复。</p>
+<h4 id="改进目标"><a href="#改进目标" class="headerlink" title="改进目标"></a>改进目标</h4><h5 id="1-增加登录注册系统"><a href="#1-增加登录注册系统" class="headerlink" title="1. 增加登录注册系统"></a>1. 增加登录注册系统</h5><p>会尝试使用本地数据库进行登录注册数据管理，并尝试将评论模块与登录系统绑定。</p>
+<h5 id="2-修复上传下载的后端bug"><a href="#2-修复上传下载的后端bug" class="headerlink" title="2. 修复上传下载的后端bug"></a>2. 修复上传下载的后端bug</h5><h5 id="3-细化categories界面"><a href="#3-细化categories界面" class="headerlink" title="3. 细化categories界面"></a>3. 细化categories界面</h5>]]></content>
+      <tags>
+        <tag>test</tag>
+        <tag>update</tag>
+      </tags>
+  </entry>
 </search>

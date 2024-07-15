@@ -6,7 +6,7 @@
   <link href="https://innoka-uka.github.io/atom.xml" rel="self"/>
   
   <link href="https://innoka-uka.github.io/"/>
-  <updated>2024-07-11T13:32:15.183Z</updated>
+  <updated>2024-07-12T10:33:49.551Z</updated>
   <id>https://innoka-uka.github.io/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>updatelog0712</title>
+    <link href="https://innoka-uka.github.io/2024/07/12/updatelog/"/>
+    <id>https://innoka-uka.github.io/2024/07/12/updatelog/</id>
+    <published>2024-07-12T06:21:11.000Z</published>
+    <updated>2024-07-12T10:33:49.551Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;功能更新&quot;&gt;&lt;a href=&quot;#功能更新&quot; class=&quot;headerlink&quot; title=&quot;功能更新&quot;&gt;&lt;/a&gt;功能更新&lt;/h4&gt;&lt;h5 id=&quot;1-新增加了评论功能&quot;&gt;&lt;a href=&quot;#1-新增加了评论功能&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="test" scheme="https://innoka-uka.github.io/tags/test/"/>
+    
+    <category term="update" scheme="https://innoka-uka.github.io/tags/update/"/>
+    
+  </entry>
+  
+  <entry>
     <title>test blog</title>
     <link href="https://innoka-uka.github.io/2024/07/11/test-blog/"/>
     <id>https://innoka-uka.github.io/2024/07/11/test-blog/</id>
     <published>2024-07-11T13:28:32.000Z</published>
-    <updated>2024-07-11T13:32:15.183Z</updated>
+    <updated>2024-07-12T10:33:49.551Z</updated>
     
     
       
