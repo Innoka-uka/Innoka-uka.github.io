@@ -33,6 +33,32 @@
         href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
       />
       <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $.ajax({
+            url: 'http://your-django-domain.com/get_user_info/',  // 替换为你的 Django 域名
+            type: 'get',
+            xhrFields: {
+                withCredentials: true  // 如果需要传递 cookie，可以启用这个选项
+            },
+            success: function(response) {
+                if (response.username) {
+                    $('#user-info').html('欢迎, ' + response.username);
+                } else {
+                    $('#user-info').html('<a target="_blank" rel="noopener" href="http://your-django-domain.com/login/">登录</a> | <a target="_blank" rel="noopener" href="http://your-django-domain.com/reg/">注册</a>');  // 替换为你的登录和注册页面链接
+                }
+            },
+            error: function() {
+                $('#user-info').html('无法获取用户信息');
+            }
+        });
+    });
+</script>
+<div id="user-info" style="position: absolute; top: 10px; right: 10px;">
+  <a target="_blank" rel="noopener" href="http://127.0.0.1:8000/login/">登录</a> 
+</div>
+
 
       <!-- mermaid -->
       
@@ -311,6 +337,10 @@
     
     <li class="nav-item">
       <a class="nav-item-link" target="_blank" rel="noopener" href="https://mangowantsmoney.lofter.com/">绘画</a>
+    </li>
+    
+    <li class="nav-item">
+      <a class="nav-item-link" href="/login">登录</a>
     </li>
     
   </ul>
