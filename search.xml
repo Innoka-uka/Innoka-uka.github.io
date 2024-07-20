@@ -41,4 +41,16 @@
         <tag>update</tag>
       </tags>
   </entry>
+  <entry>
+    <title>welcome</title>
+    <url>/2024/07/20/welcome/</url>
+    <content><![CDATA[<h4 id="Welcome-to-my-blog"><a href="#Welcome-to-my-blog" class="headerlink" title="Welcome to my blog"></a>Welcome to my blog</h4><p>这是我的个人博客！除了用hexo的博客系统搭建，我还自己增添了一些其他的技术，比如：</p>
+<ol>
+<li>登录注册系统</li>
+<li>评论系统</li>
+<li>文件临时上传下载功能</li>
+</ol>
+<p>在接下来的视频中，我将逐一展示这些功能！&gt;w&lt;</p>
+]]></content>
+  </entry>
 </search>
